@@ -1,6 +1,7 @@
 {
   "name": "frontend-project",
   "version": "1.0.0",
+  "homepage": "https://starrtrack.github.io/StarrCo/",
   "description": "Frontend project with webpack, scss, babel and linting",
   "main": "script.js",
   "scripts": {
@@ -12,7 +13,8 @@
     "lint:fix": "eslint src --ext .js --fix",
     "format": "prettier --write \"src/**/*.{js,css,scss,html}\"",
     "format:check": "prettier --check \"src/**/*.{js,css,scss,html}\"",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "license": "MIT",
   "devDependencies": {

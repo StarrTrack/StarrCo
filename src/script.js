@@ -1,5 +1,6 @@
 import './reset.css';
 import './style/style.scss';
+import './style/style.css.map';
 import 'core-js/stable/object/to-string';
 import 'core-js/stable/dom-collections';
 
